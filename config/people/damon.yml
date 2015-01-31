@@ -8,7 +8,6 @@ recipes:
         - applications::omnigraffle
         - applications::launchrocket
         - sudoalt::default
-        - osxdefaults::dock_automatically_hide_and_show_the_dock
         - osxdefaults::dock_do_not_animate_opening_applications_from_the_dock
         - osxdefaults::dock_enable_spring_loading_for_all_dock_items
         - osxdefaults::dock_make_dock_icons_of_hidden_applications_translucent
@@ -44,10 +43,6 @@ attributes:
             source: https://github.com/facelessuser/BracketHighlighter.git
             branch: ST3
         -
-            name: PHP-Twig
-            source: https://github.com/Anomareh/PHP-Twig.tmbundle.git
-            branch: master
-        -
             name: Theme - Aqua
             source: https://github.com/cafarm/aqua-theme.git
             branch: master
@@ -64,29 +59,15 @@ attributes:
             source: git://github.com/thinkpixellab/flatland.git
             branch: master
     dotfiles:
-        vimusers:
-            - root
-            - roderik
-        kdeploy:
-            hostname: dev
-        vim:
-            bundle:
-                - sleuth: git://github.com/tpope/vim-sleuth.git
-                - sensible: git://github.com/tpope/vim-sensible.git
-                - gitgutter: git://github.com/airblade/vim-gitgutter.git
-                - airline: https://github.com/bling/vim-airline
-                - syntastic: git://github.com/scrooloose/syntastic.git
-                - nerdtree: https://github.com/scrooloose/nerdtree.git
-                - vim-css-color: https://github.com/ap/vim-css-color
     git:
-        name: Roderik van der Veer
-        email: roderik.van.der.veer@kunstmaan.be
+        name: Damon PEtta
+        email: damon@petta.org
     osxdefaults:
-        computername: Spektr
+        computername: damon-air
     authorization:
         sudo:
             users:
-                - roderik
+                - damon
             passwordless: true
             include_sudoers_d: true
     homebrewalt:
@@ -94,10 +75,8 @@ attributes:
             - google-drive
             - things
             - dropbox
-            - evernote
             - istat-menus
             - kaleidoscope
-            - alfred
             - totalfinder
             - spotify
             - bartender
@@ -107,14 +86,14 @@ attributes:
             - tower
             - vlc
             - handbrake
-            - slack
+            - flowdock
             - flashlight
             - couleurs
             - vagrant-manager
-            - cord
             - vagrant
             - vmware-fusion
             - virtualbox
-            - evernote
             - superduper
             - microsoft-office
+            - iterm2
+            
