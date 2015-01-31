@@ -21,7 +21,7 @@ recipes:
         - osxdefaults::dock_enable_spring_loading_for_all_dock_items
         - osxdefaults::dock_make_dock_icons_of_hidden_applications_translucent
         - osxdefaults::dock_minimize_to_application
-        - osxdefaults::dock_position_the_dock_on_the_bottom
+        #- osxdefaults::dock_position_the_dock_on_the_bottom
         - osxdefaults::dock_remove_the_animation_when_hiding_showing_the_dock
         - osxdefaults::dock_remove_the_auto-hiding_dock_delay
         - osxdefaults::dock_show_indicator_lights_for_open_applications_in_the_dock
