@@ -39,8 +39,6 @@ attributes:
             - automake
             - redis
             - unrar
-            - android-ndk
-            - android-platform-tools
             - android-sdk
             - astyle
             - autossh
@@ -61,12 +59,7 @@ attributes:
             - rsync
             - mongodb
             - elasticsearch
-#        cask_apps:
-#            - imageoptim
-#            - imagealpha
-#            - phpstorm
-#            - sequel-pro
-#            - sourcetree
+
     nodejs:
         apps:
             - uglify-js
