@@ -52,7 +52,6 @@ recipes:
         - osxdefaults::save_screenshots_in_png_format
         - osxdefaults::save_screenshots_to_the_desktop
         - osxdefaults::save_to_disk_not_to_iCloud_by_default
-        - osxdefaults::scroll_direction_unnatural
         - osxdefaults::set_a_blazingly_fast_keyboard_repeat_rate
         - osxdefaults::set_computer_name
         - osxdefaults::set_terminal_profile
@@ -97,8 +96,8 @@ attributes:
             branch: master
     dotfiles:
     git:
-        name: Damon PEtta
-        email: damon@petta.org
+        name: Damon Petta
+        email: dpetta@bottenose.com
     osxdefaults:
         computername: damon-air
     authorization:
@@ -110,27 +109,14 @@ attributes:
     homebrewalt:
         cask_apps:
             - google-drive
-            - things
             - dropbox
-            - istat-menus
-            - kaleidoscope
-            - totalfinder
-            - spotify
-            - bartender
-            - hazel
             - sonos
             - caffeine
-            - tower
             - vlc
-            - handbrake
             - flowdock
             - flashlight
-            - couleurs
             - vagrant-manager
             - vagrant
-            - vmware-fusion
             - virtualbox
             - superduper
-            - microsoft-office
             - iterm2
-            
