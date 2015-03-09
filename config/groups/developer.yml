@@ -46,10 +46,8 @@ attributes:
             - git
             - gnupg
             - go
-            - heroku-toolbelt
             - wget
             - pwgen
-            - xmlstarlet
             - htop-osx
             - git-flow
             - siege
@@ -60,12 +58,7 @@ attributes:
             - node010
             - cassandra
             - rabbitmq
-#        cask_apps:
-#            - imageoptim
-#            - imagealpha
-#            - phpstorm
-#            - sequel-pro
-#            - sourcetree
+            - icu4c
     nodejs:
         apps:
             - uglify-js
