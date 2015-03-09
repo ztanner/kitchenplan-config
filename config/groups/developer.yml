@@ -55,7 +55,6 @@ attributes:
             - rsync
             - mongodb
             - elasticsearch
-            - node010
             - cassandra
             - rabbitmq
             - icu4c
