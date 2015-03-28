@@ -9,10 +9,14 @@ This is a Kitchenplan configuration repository. This repository contains all con
 3) commit changed to your forked repo
 
 4) open terminal 
+
 ``
-	$ gem install kitchenplan
-	$ kitchenplan setup # when asked "Do you have a config repository? [y,n] “ answer yes and use your forked repo
-	$ kitchenplan provision
+$ gem install kitchenplan
+
+$ kitchenplan setup # when asked "Do you have a config repository? [y,n] “ answer yes and use your forked repo
+
+$ kitchenplan provision
+
 ``
 5) wait for a few hours :)
 
