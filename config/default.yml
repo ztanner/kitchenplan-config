@@ -4,7 +4,6 @@ recipes:
     mac_os_x:
         - homebrewalt::default
         - nodejs::default
-        - drivers::xerox550
         - osxdefaults::disable_auto-correct
         - osxdefaults::enable_subpixel_font_rendering_on_non-apple_lcds
         - osxdefaults::finder_small_sidebar_icon_size
@@ -14,11 +13,3 @@ recipes:
         - osxdefaults::disable_resume_system-wide
         - osxdefaults::save_screenshots_in_png_format
         - osxdefaults::save_screenshots_to_the_desktop
-attributes:
-    drivers:
-        xerox: 172.18.19.67
-    homebrewalt:
-        cask_apps:
-            - google-chrome
-            - firefox
-            - java
