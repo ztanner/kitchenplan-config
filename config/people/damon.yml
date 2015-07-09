@@ -1,12 +1,10 @@
 groups:
-    - bash
     - developer
 recipes:
     global:
         - dotfiles::sshconfig
     mac_os_x:
         - applications::omnigraffle
-        - applications::launchrocket
         - sudoalt::default
         - osxdefaults::automatically_illuminate_built-in_macbook_keyboard_in_low_light
         - osxdefaults::automatically_quit_printer_app_once_the_print_jobs_complete
@@ -21,7 +19,6 @@ recipes:
         - osxdefaults::dock_enable_spring_loading_for_all_dock_items
         - osxdefaults::dock_make_dock_icons_of_hidden_applications_translucent
         - osxdefaults::dock_minimize_to_application
-        #- osxdefaults::dock_position_the_dock_on_the_bottom
         - osxdefaults::dock_remove_the_animation_when_hiding_showing_the_dock
         - osxdefaults::dock_remove_the_auto-hiding_dock_delay
         - osxdefaults::dock_show_indicator_lights_for_open_applications_in_the_dock
@@ -99,7 +96,7 @@ attributes:
         name: Damon Petta
         email: dpetta@bottenose.com
     osxdefaults:
-        computername: damon-air
+        computername: damon-mbp
     authorization:
         sudo:
             users:
@@ -115,7 +112,6 @@ attributes:
             - vlc
             - flowdock
             - flashlight
-            - vagrant-manager
             - vagrant
             - virtualbox
             - superduper
