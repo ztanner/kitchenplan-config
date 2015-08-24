@@ -51,6 +51,10 @@ attributes:
             - watch
             - rsync
             - icu4c
+            - mongodb		
+-           - elasticsearch		
+-           - cassandra		
+-           - rabbitmq
     nodejs:
         apps:
             - uglify-js
