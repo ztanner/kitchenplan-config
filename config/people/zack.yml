@@ -93,14 +93,14 @@ attributes:
             branch: master
     dotfiles:
     git:
-        name: Damon Petta
-        email: dpetta@bottenose.com
+        name: Zack Tanner
+        email: zacktanner@gmail.com
     osxdefaults:
-        computername: damon-mbp
+        computername: zack-mbp
     authorization:
         sudo:
             users:
-                - damon
+                - zack
             passwordless: true
             include_sudoers_d: true
     homebrewalt:
