@@ -86,7 +86,7 @@ attributes:
         -
             name: ApplySyntax
             source: https://github.com/facelessuser/ApplySyntax.git
-            branch: ST3
+            branch: master
         -
             name: Theme - Flatland
             source: git://github.com/thinkpixellab/flatland.git
