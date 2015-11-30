@@ -52,9 +52,9 @@ attributes:
             - rsync
             - icu4c
             - mongodb		
--           - elasticsearch		
--           - cassandra		
--           - rabbitmq
+            - elasticsearch		
+            - cassandra		
+            - rabbitmq
     nodejs:
         apps:
             - uglify-js
